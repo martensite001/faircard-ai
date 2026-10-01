@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+demo/out/
+out/st.log
+*.pyc
+data/mock_kca_cases.json
+out/*.png
+out/sample_*_card.json
+build_v2.py
+icons.js
+shot.py

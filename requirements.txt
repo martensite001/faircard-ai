@@ -1,0 +1,7 @@
+# Python 3.11 검증. 버전 고정(재현성)
+streamlit==1.64.0
+scikit-learn==1.8.0
+pillow==12.2.0
+pytest
+# 선택: LLM 3단계 검증
+# anthropic
