@@ -1,7 +1,7 @@
 # FairCard-AI PoC v0.2 (2026 AI 라이프 솔루션 챌린지 제출용)
 
-- 웹 데모: (배포 후 기재)
-- 시연 영상: (업로드 후 기재)
+- 웹 데모(테스트 URL): https://faircard-ai-demo.streamlit.app  — DEMO 모드(가상 약관·시뮬레이션 분쟁사례)
+- 시연 영상: 제출 메일 첨부 `faircard_demo.mp4` (1분 55초, `demo/record_demo.py`로 재촬영 가능)
 
 AI 서비스 약관·개인정보처리방침 → 주의 조항 탐지(규칙 + TF-IDF 근거 검색) → Fair-Score → 3단 정보카드(PNG/JSON).
 
@@ -13,7 +13,7 @@ python -m pytest -q                  # 단위·골든 회귀 테스트 7건
 python eval.py                       # dev에서 τ 선택 → 동결 test 평가 (out/eval_result.json)
 ```
 ## 배포 (공개 테스트 URL)
-GitHub 공개 저장소에 올린 뒤 Streamlit Community Cloud → New app → `app.py` 지정. Python 3.11.
+GitHub 공개 저장소에 올린 뒤 Streamlit Community Cloud → New app → `app.py` 지정. Python 3.11. 한글 폰트는 `packages.txt`(fonts-noto-cjk)로 설치.
 
 ## DEMO 모드 (기본)
 API 키 없이 실행하면 DEMO 모드로 동작합니다.
