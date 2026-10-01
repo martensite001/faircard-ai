@@ -1,0 +1,10 @@
+{
+ "analyze_ms_median": 0.3,
+ "render_ms_median": 232.7,
+ "n_runs": 30,
+ "input_sentences": 8,
+ "python": "3.11.15",
+ "cpu": "x86_64",
+ "sklearn": "1.8.0",
+ "pillow": "12.2.0"
+}
